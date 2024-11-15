@@ -3,7 +3,7 @@ import { MdOutlineMenu } from "react-icons/md";
 import { MdClose } from "react-icons/md";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import axios from 'axios'
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { GlobalState } from "../../GlobalState";
 const Header = () => {
 

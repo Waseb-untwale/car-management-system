@@ -18,9 +18,6 @@ const BtnRender = ({product}) => {
     <div className='row_btn'>
     
    <>
-        <Link id='btn_buy' to={`/create_product/${product._id}`}>
-            Update
-          </Link>
       <Link id='btn_view' to={`detail/${product._id}`}>
        Details
       </Link>
